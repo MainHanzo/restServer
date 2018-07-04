@@ -1,4 +1,4 @@
-const bloom = require("bloomfilter");
+const bloom = require("bloom-filter");
 
 var listBloomFilter = [];
 var listTrunks  = [];
@@ -7,21 +7,23 @@ var listTrunks  = [];
 const  CreateListBloomFilter = function(number) {
 
     for (var i = 0; i < number; i++) {
-        var bloomfilter = new bloom.BloomFilter(
-            Math.floor(-Math.log(0.05)*listTrunks[i].length/Math.log(2)/Math.log(2)), // number of bits to allocate is a function who depends on the false rate.
-            2        // number of hash functions.s
+        var bloomfilter = bloom.create(
+            listTrunks[i].length, // nb of elements.
+            0.05       // false positive rate
+
         );
 
         listBloomFilter.push(bloomfilter);
-        console.log("bloom added" + i +" "+Math.floor(-Math.log(0.05)*listTrunks[i].length/Math.log(2)/Math.log(2)));
+        console.log("bloom added" + i );
 
     }
+    return listBloomFilter;
 }
 
 const VerifyBloomFilters = function(addr){
     for (let bloomFilterIndex in listBloomFilter) {
         let bloomFilter = listBloomFilter[bloomFilterIndex];
-    if(!bloomFilter.test(addr))
+    if(!bloomFilter.contains(addr))
         {
             //console.log("No." + bloomFilterIndex +" doesn't have the address: " + addr);
         }else{
@@ -46,7 +48,7 @@ const MakeTrunks = function(num){
 const LoadTrunks = function(i,j,addr){
 
     listTrunks[i][j] = addr;
-    listBloomFilter[i].add(addr);
+    listBloomFilter[i].insert(addr);
 }
 
 module.exports.CreateListBloomFilter = CreateListBloomFilter;

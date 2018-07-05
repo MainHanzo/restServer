@@ -10,7 +10,7 @@ app.listen(port);
 
 var fs=require('fs');
 var file="./Addresses.json";
-var result=JSON.parse(fs.readFileSync( file));
+var result=JSON.parse(fs.readFileSync(file));
 
 //console.time("Hi Sam");
 
@@ -45,6 +45,6 @@ result.forEach(function(obj) {
 })
 console.timeEnd("Hi Sam");
 
-//console.log("yeah");
 
-//
+
+

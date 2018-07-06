@@ -12,23 +12,22 @@ const  CreateListBloomFilter = function(number) {
             0.05       // false positive rate
 
         );
-
         listBloomFilter.push(bloomfilter);
-        console.log("bloom added" + i );
 
     }
+    console.log("bloom added " + listBloomFilter.length);
     return listBloomFilter;
 }
 
 const VerifyBloomFilters = function(addr){
     for (let bloomFilterIndex in listBloomFilter) {
         let bloomFilter = listBloomFilter[bloomFilterIndex];
-    if(!bloomFilter.contains(addr))
-        {
-            //console.log("No." + bloomFilterIndex +" doesn't have the address: " + addr);
-        }else{
-            //console.log("No." + bloomFilterIndex +" has the address: " + addr);
-        }
+        if(!bloomFilter.contains(addr))
+            {
+                //console.log("No." + bloomFilterIndex +" doesn't have the address: " + addr);
+            }else{
+                //console.log("No." + bloomFilterIndex +" has the address: " + addr);
+            }
     }
 }
 
@@ -37,7 +36,7 @@ const MakeTrunks = function(num){
     for(let i=0;i<num;i++){
         var trunk = [];
         trunk.length = Math.floor(Math.random()*400) + 100;
-        console.log("trunk "+ i +"has length: " + trunk.length);
+        // console.log("trunk "+ i +"has length: " + trunk.length);
         listTrunks.push(trunk);
     }
     console.log("trunks done!");
@@ -46,7 +45,7 @@ const MakeTrunks = function(num){
 }
 
 const LoadTrunks = function(i,j,addr){
-
+     console.log(i+" "+j+" "+addr);
     listTrunks[i][j] = addr;
     listBloomFilter[i].insert(addr);
 }

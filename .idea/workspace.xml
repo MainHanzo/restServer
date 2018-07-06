@@ -1,52 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67e47f3d-8207-4f3b-b422-37175079df21" name="Default" comment="">
+    <list default="true" id="67e47f3d-8207-4f3b-b422-37175079df21" name="Default" comment="using expirable hashtable">
+      <change afterPath="$PROJECT_DIR$/addr/addresses0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses10.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses11.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses12.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses13.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses14.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses15.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses16.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses17.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses18.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses19.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses20.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses21.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses22.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses23.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses24.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses25.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses26.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses27.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses28.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses29.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses30.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses31.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses32.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses33.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses34.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses35.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses36.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses37.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses38.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses39.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses40.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses41.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses42.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses43.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses44.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses45.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses46.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses47.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses48.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses49.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses50.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses51.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses52.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses53.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses54.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses55.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses56.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses57.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses58.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses59.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addr/addresses9.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Addresses.json" beforeDir="false" afterPath="$PROJECT_DIR$/Addresses.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/models/Model.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/models/Model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bloom-filter/lib/filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bloom-filter/lib/filter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cache-base/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cache-base/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cache-base/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cache-base/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cache-base/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cache-base/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cache-base/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cache-base/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/get-value/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/get-value/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/get-value/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/get-value/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/get-value/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/get-value/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/has-value/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/has-value/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/has-value/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/has-value/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/has-value/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/has-value/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/has-value/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/has-value/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/has-values/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/has-values/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/has-values/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/has-values/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/has-values/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/has-values/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/has-values/node_modules/kind-of/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/has-values/node_modules/kind-of/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/has-values/node_modules/kind-of/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/has-values/node_modules/kind-of/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/has-values/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/has-values/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/set-value/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/set-value/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/set-value/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/set-value/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/set-value/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/set-value/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/set-value/node_modules/extend-shallow/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/set-value/node_modules/extend-shallow/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/set-value/node_modules/extend-shallow/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/set-value/node_modules/extend-shallow/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/set-value/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/set-value/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/unset-value/node_modules/has-value/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/unset-value/node_modules/has-value/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/unset-value/node_modules/has-value/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/unset-value/node_modules/has-value/node_modules/isobject/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/unset-value/node_modules/has-value/node_modules/isobject/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/unset-value/node_modules/has-value/node_modules/isobject/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/unset-value/node_modules/has-value/node_modules/isobject/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/unset-value/node_modules/has-value/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/unset-value/node_modules/has-values/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/unset-value/node_modules/has-values/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/unset-value/node_modules/has-values/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/unset-value/node_modules/has-values/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -61,11 +79,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="407">
+              <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addresses0.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addr/addresses0.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="681">
+              <caret column="3699999" selection-start-column="3699965" selection-end-column="3699999" />
             </state>
           </provider>
         </entry>
@@ -73,54 +100,8 @@
       <file leaf-file-name="Model.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/models/Model.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="filter.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/node_modules/bloom-filter/lib/filter.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console.js" pinned="false" current-in-tab="false">
-        <entry file="mock://console.js">
-          <provider selected="true" editor-type-id="vmFileEditor" />
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/bloom-filter/lib/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="murmurhash3.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/bloom-filter/lib/murmurhash3.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/bloomfilter/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="2" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
+            <state relative-caret-position="318">
+              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -128,8 +109,17 @@
       <file leaf-file-name="Addresses.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Addresses.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="112" selection-start-column="112" selection-end-column="112" />
+            <state relative-caret-position="767">
+              <caret column="3700001" selection-start-column="3700001" selection-end-column="3700001" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/bloom-filter/lib/filter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1236">
+              <caret line="96" column="77" selection-start-line="96" selection-start-column="77" selection-end-line="96" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -140,6 +130,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package_json" />
+        <option value="tsconfig.json" />
       </list>
     </option>
   </component>
@@ -155,9 +146,16 @@
       <find>size</find>
       <find>Murm</find>
       <find>hashtable</find>
+      <find>XsKBT5eY5apBWDE95JA2CinPGZ1uAxJ4NG</find>
+      <find>Xuf6v1PnFL9h67kHdyuS3HahMNriELZnkw</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="yang &lt;huayang970@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -167,10 +165,12 @@
         <option value="$PROJECT_DIR$/address.json" />
         <option value="$PROJECT_DIR$/try.json" />
         <option value="$PROJECT_DIR$/package-lock.json" />
-        <option value="$PROJECT_DIR$/Addresses.json" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/node_modules/bloom-filter/lib/filter.js" />
+        <option value="$PROJECT_DIR$/node_modules/package.json" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea.properties" />
+        <option value="$PROJECT_DIR$/Addresses.json" />
         <option value="$PROJECT_DIR$/api/models/Model.js" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
@@ -188,9 +188,11 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1278" />
-    <option name="height" value="1440" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1269" />
+    <option name="y" value="25" />
+    <option name="width" value="1157" />
+    <option name="height" value="1337" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -213,13 +215,8 @@
             <path>
               <item name="restServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="restServer" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="restServer" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="cache-base" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -235,6 +232,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/addr" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/node_modules" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\DellUser\WebstormProjects" />
       <recent name="C:\Users\DellUser\WebstormProjects\restServer" />
@@ -252,8 +254,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.Debug">
     <configuration name="Debug" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="server.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="mem://4/server.js" working-dir="$PROJECT_DIR$" />
+    <list>
+      <item itemvalue="Node.js.Debug" />
+      <item itemvalue="Node.js.server.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.server.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -270,41 +282,129 @@
       <workItem from="1529387762250" duration="43357000" />
       <workItem from="1530269409218" duration="97000" />
       <workItem from="1530503058634" duration="13408000" />
-      <workItem from="1530525990578" duration="11012000" />
+      <workItem from="1530525990578" duration="14846000" />
+      <workItem from="1530763908261" duration="15093000" />
+      <workItem from="1530787113706" duration="460000" />
+      <workItem from="1530787587314" duration="357000" />
+      <workItem from="1530788022673" duration="132000" />
+      <workItem from="1530849007015" duration="3931000" />
     </task>
+    <task id="LOCAL-00001" summary="using object as hashtable">
+      <created>1530682097040</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530682097040</updated>
+    </task>
+    <task id="LOCAL-00002" summary="using expirable hashtable">
+      <created>1530762398075</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1530762398075</updated>
+    </task>
+    <task id="LOCAL-00003" summary="doesn't work yet with 59 files of addr &#10;problem: over heap">
+      <created>1530785333474</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1530785333474</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88912000" />
+    <option name="totallyTimeSpent" value="112719000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1278" height="1440" extended-state="0" />
+    <frame x="1269" y="25" width="1157" height="1337" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20031299" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.08632813" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50073206" side_tool="true" weight="0.32708934" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="3" visible="true" weight="0.3299712" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49926794" weight="0.33213258" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32858273" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49926794" visible="true" weight="0.3317498" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.398415" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39825812" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.3290938" />
+      <window_info anchor="bottom" id="Find" order="5" visible="true" weight="0.32858273" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.08632813" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49926794" weight="0.3317498" />
+      <window_info anchor="bottom" id="Find" order="5" visible="true" weight="0.32858273" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39825812" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50073206" side_tool="true" weight="0.32708934" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="3" visible="true" weight="0.32858273" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="using object as hashtable" />
+    <MESSAGE value="using expirable hashtable" />
+    <MESSAGE value="doesn't work yet with 59 files of addr &#10;problem: over heap" />
+    <option name="LAST_COMMIT_MESSAGE" value="doesn't work yet with 59 files of addr &#10;problem: over heap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -312,118 +412,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Addresses.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1201" selection-start-column="1201" selection-end-column="1201" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/convertcsv.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="186" selection-start-line="2" selection-start-column="186" selection-end-line="2" selection-end-column="186" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/routes/Routes.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5340">
-          <caret line="356" column="8" selection-start-line="356" selection-start-column="8" selection-end-line="356" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/models/Model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bloomfilter/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addresses.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1201" selection-start-column="1201" selection-end-column="1201" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/convertcsv.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="186" selection-start-line="2" selection-start-column="186" selection-end-line="2" selection-end-column="186" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/routes/Routes.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5340">
-          <caret line="356" column="8" selection-start-line="356" selection-start-column="8" selection-end-line="356" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/models/Model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addresses.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/try.json" />
-    <entry file="file://$PROJECT_DIR$/convertcsv.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="186" lean-forward="true" selection-start-line="2" selection-start-column="186" selection-end-line="2" selection-end-column="186" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/routes/Routes.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -493,7 +481,7 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -514,16 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1221">
           <caret line="113" column="3" lean-forward="true" selection-start-line="113" selection-start-column="3" selection-end-line="113" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bloom-filter/test/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Addresses.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="112" selection-start-column="112" selection-end-column="112" />
         </state>
       </provider>
     </entry>
@@ -558,24 +536,93 @@
     <entry file="file://$PROJECT_DIR$/node_modules/bloom-filter/lib/murmurhash3.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/package.json" />
+    <entry file="file://$PROJECT_DIR$/node_modules/Addresses1.json" />
+    <entry file="file://$PROJECT_DIR$/tsconfig.json" />
+    <entry file="file://$PROJECT_DIR$/node_modules/Addresses0.json" />
+    <entry file="file://$PROJECT_DIR$/addr/addresses2.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addr/addresses4.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addr/addresses5.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addr/addresses6.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addr/addresses7.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addr/addresses8.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addr/addresses9.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addr/addresses10.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addr/addresses11.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addr/addresses12.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addr/addresses3.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/bloom-filter/test/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="2" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
+        <state relative-caret-position="30">
+          <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addr/addresses1.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Addresses.json">
+      <provider editor-type-id="LargeFileEditor">
+        <state relative-caret-position="246">
+          <caret column="7154" selection-start-column="7154" selection-end-column="7154" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="767">
+          <caret column="3700001" selection-start-column="3700001" selection-end-column="3700001" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addr/addresses0.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret column="3699999" selection-start-column="3699965" selection-end-column="3699999" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/models/Model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+        <state relative-caret-position="318">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/bloom-filter/lib/filter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        <state relative-caret-position="1236">
+          <caret line="96" column="77" selection-start-line="96" selection-start-column="77" selection-end-line="96" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
         </state>
       </provider>
     </entry>

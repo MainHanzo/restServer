@@ -17,6 +17,7 @@
     "bloomfilter": "0.0.18",
     "cache-base": "^4.0.0",
     "cuckoo-filter": "^1.0.4",
+    "node-hashtable": "https://github.com/clondono/node-hashtable.git",
     "expirable-hash-table": "^1.0.1",
     "express": "^4.16.3"
   }

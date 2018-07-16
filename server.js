@@ -2,10 +2,10 @@ var express = require('express'),
     app = express(),
 
     port = process.env.PORT || 8868;
-var nbFiles = 5;
+var nbFiles = 1;
 var models = require('./api/models/Model');
-var listTrunks = models.MakeTrunks(335*nbFiles);              //create a list of trunks with random size and every trunk has a corresponding BF
-var listBloomFilter = models.CreateListBloomFilter(335*nbFiles);                    //create a list of bloom filters and the number of bloom filter is the argument
+var listTrunks = models.MakeTrunks(120*nbFiles);              //create a list of trunks with random size and every trunk has a corresponding BF
+var listBloomFilter = models.CreateListBloomFilter(120*nbFiles);                    //create a list of bloom filters and the number of bloom filter is the argument
 
 app.listen(port);
 var result = [];
@@ -48,7 +48,8 @@ result.forEach(function(obj) {
     models.VerifyBloomFilters(obj);
 })
 console.timeEnd("Hi Sam");
-
+const addon = require('./build/Release/addon');
+console.log(addon.hello());
 
 
 

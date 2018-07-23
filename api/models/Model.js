@@ -35,7 +35,7 @@ const MakeTrunks = function(num){
 
     for(let i=0;i<num;i++){
         var trunk = [];
-        trunk.length = Math.floor(Math.random()*100) + 950;
+        trunk.length = Math.floor(Math.random()*400) + 100;
         // console.log("trunk "+ i +"has length: " + trunk.length);
         listTrunks.push(trunk);
     }

@@ -26,7 +26,7 @@ const VerifyBloomFilters = function(addr){
             {
                 //console.log("No." + bloomFilterIndex +" doesn't have the address: " + addr);
             }else{
-                //console.log("No." + bloomFilterIndex +" has the address: " + addr);
+                // console.log("No." + bloomFilterIndex +" has the address: " + addr);
             }
     }
 }
@@ -45,7 +45,7 @@ const MakeTrunks = function(num){
 }
 
 const LoadTrunks = function(i,j,addr){
-     console.log(i+" "+j+" "+addr);
+    console.log(i+" "+j+" "+addr);
     listTrunks[i][j] = addr;
     listBloomFilter[i].insert(addr);
 }

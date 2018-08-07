@@ -11,11 +11,12 @@ app.listen(port);
 var result = [];
 
 var fs=require('fs');
-for(var i =0;i<nbFiles;i++) {
+for(var i =6;i<nbFiles+6;i++) {
     var file = "./addr/addresses" + i + ".json";
 
     var result = result.concat(JSON.parse(fs.readFileSync(file)));
 }
+
 //console.time("Hi Sam");
 
 
@@ -38,9 +39,9 @@ result.forEach(function(obj){
 
 })
 
-//listBloomFilter.forEach(function(obj){
+// listBloomFilter.forEach(function(obj){
 //    console.log(obj.inspect());
-//})
+// })
 
 console.time("Hi Sam");
 

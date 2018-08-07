@@ -1,10 +1,11 @@
 {
   "name": "restserver",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +21,19 @@
     "cuckoo-filter": "^1.0.4",
     "expirable-hash-table": "^1.0.1",
     "express": "^4.16.3",
-    "node-hashtable": "https://github.com/clondono/node-hashtable.git"
-  }
+    "nan": "^2.10.0",
+    "node-gyp": "^3.7.0",
+    "node-hashtable": "git+https://github.com/clondono/node-hashtable.git"
+  },
+  "gypfile": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MainHanzo/restServer.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/MainHanzo/restServer/issues"
+  },
+  "homepage": "https://github.com/MainHanzo/restServer#readme",
+  "description": ""
 }

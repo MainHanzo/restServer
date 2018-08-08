@@ -1,0 +1,1 @@
+cmd_Release/simd-block.node := c++ -bundle -stdlib=libc++ -mavx2 -undefined dynamic_lookup -Wl,-no_pie -Wl,-search_paths_first -mmacosx-version-min=10.9 -arch x86_64 -L./Release -stdlib=libc++  -o Release/simd-block.node Release/obj.target/simd-block/addon.o Release/obj.target/simd-block/SimdBlockWrap.o Release/obj.target/simd-block/hashutil.o 

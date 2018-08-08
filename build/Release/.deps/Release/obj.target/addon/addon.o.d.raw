@@ -1,0 +1,26 @@
+Release/obj.target/addon/addon.o: ../addon.cpp \
+  /Users/yanghua/.node-gyp/10.7.0/include/node/node.h \
+  /Users/yanghua/.node-gyp/10.7.0/include/node/v8.h \
+  /Users/yanghua/.node-gyp/10.7.0/include/node/v8-version.h \
+  /Users/yanghua/.node-gyp/10.7.0/include/node/v8config.h \
+  /Users/yanghua/.node-gyp/10.7.0/include/node/v8-platform.h \
+  /Users/yanghua/.node-gyp/10.7.0/include/node/node_version.h \
+  ../SimdBlockWrap.h \
+  /Users/yanghua/.node-gyp/10.7.0/include/node/node_object_wrap.h \
+  ../SimdBlockFilter.h ../hashutil.h \
+  /Users/yanghua/.node-gyp/10.7.0/include/node/openssl/evp.h \
+  /Users/yanghua/.node-gyp/10.7.0/include/node/openssl/opensslconf.h \
+  /Users/yanghua/.node-gyp/10.7.0/include/node/openssl/./opensslconf_asm.h \
+  /Users/yanghua/.node-gyp/10.7.0/include/node/openssl/./archs/darwin64-x86_64-cc/asm/include/openssl/opensslconf.h \
+  /Users/yanghua/.node-gyp/10.7.0/include/node/openssl/ossl_typ.h \
+  /Users/yanghua/.node-gyp/10.7.0/include/node/openssl/e_os2.h \
+  /Users/yanghua/.node-gyp/10.7.0/include/node/openssl/symhacks.h \
+  /Users/yanghua/.node-gyp/10.7.0/include/node/openssl/bio.h \
+  /Users/yanghua/.node-gyp/10.7.0/include/node/openssl/crypto.h \
+  /Users/yanghua/.node-gyp/10.7.0/include/node/openssl/stack.h \
+  /Users/yanghua/.node-gyp/10.7.0/include/node/openssl/safestack.h \
+  /Users/yanghua/.node-gyp/10.7.0/include/node/openssl/opensslv.h \
+  /Users/yanghua/.node-gyp/10.7.0/include/node/openssl/objects.h \
+  /Users/yanghua/.node-gyp/10.7.0/include/node/openssl/obj_mac.h \
+  /Users/yanghua/.node-gyp/10.7.0/include/node/openssl/asn1.h \
+  /Users/yanghua/.node-gyp/10.7.0/include/node/openssl/bn.h

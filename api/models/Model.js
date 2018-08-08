@@ -1,32 +1,32 @@
-const bloom = require("bloom-filter");
-
-var listBloomFilter = [];
+// const bloom = require("bloom-filter");
+var simd = require('./build/Release/simd-block.node');
+var listSimd = [];
 var listTrunks  = [];
 
 
-const  CreateListBloomFilter = function(number) {
+const  CreateListSimd = function(number) {
 
     for (var i = 0; i < number; i++) {
-        var bloomfilter = bloom.create(
+        var simdBlock = bloom.create(
             listTrunks[i].length, // nb of elements.
             0.05       // false positive rate
 
         );
-        listBloomFilter.push(bloomfilter);
+        listSimd.push(simdBlock);
 
     }
-    console.log("bloom added " + listBloomFilter.length);
-    return listBloomFilter;
+    console.log("bloom added " + listSimd.length);
+    return listSimd;
 }
 
-const VerifyBloomFilters = function(addr){
-    for (let bloomFilterIndex in listBloomFilter) {
-        let bloomFilter = listBloomFilter[bloomFilterIndex];
-        if(!bloomFilter.contains(addr))
+const VerifySimds = function(addr){
+    for (let simdBlockIndex in listSimd) {
+        let simdBlock = listSimd[simdBlockIndex];
+        if(!simdBlock.contains(addr))
             {
-                //console.log("No." + bloomFilterIndex +" doesn't have the address: " + addr);
+                //console.log("No." + simdBlockIndex +" doesn't have the address: " + addr);
             }else{
-                // console.log("No." + bloomFilterIndex +" has the address: " + addr);
+                // console.log("No." + simdBlockIndex +" has the address: " + addr);
             }
     }
 }
@@ -47,10 +47,10 @@ const MakeTrunks = function(num){
 const LoadTrunks = function(i,j,addr){
     console.log(i+" "+j+" "+addr);
     listTrunks[i][j] = addr;
-    listBloomFilter[i].insert(addr);
+    listSimd[i].insert(addr);
 }
 
-module.exports.CreateListBloomFilter = CreateListBloomFilter;
-module.exports.VerifyBloomFilters = VerifyBloomFilters;
+module.exports.CreateListSimd = CreateListSimd;
+module.exports.VerifySimds = VerifySimds;
 module.exports.MakeTrunks = MakeTrunks;
 module.exports.LoadTrunks = LoadTrunks;

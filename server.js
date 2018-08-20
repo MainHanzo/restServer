@@ -5,13 +5,13 @@ var express = require('express'),
 var nbFiles = 1;
 var models = require('./api/models/Model');
 var listTrunks = models.MakeTrunks(350*nbFiles);              //create a list of trunks with random size and every trunk has a corresponding BF
-var listBloomFilter = models.CreateListBloomFilter(350*nbFiles);                    //create a list of bloom filters and the number of bloom filter is the argument
+var listSimdBlock = models.CreateListSimd(350*nbFiles);                    //create a list of bloom filters and the number of bloom filter is the argument
 
 app.listen(port);
 var result = [];
 
 var fs=require('fs');
-for(var i =6;i<nbFiles+6;i++) {
+for(var i =7;i<nbFiles+7;i++) {
     var file = "./addr/addresses" + i + ".json";
 
     var result = result.concat(JSON.parse(fs.readFileSync(file)));
@@ -39,14 +39,14 @@ result.forEach(function(obj){
 
 })
 
-// listBloomFilter.forEach(function(obj){
+// listSimdBlock.forEach(function(obj){
 //    console.log(obj.inspect());
 // })
 
 console.time("Hi Sam");
 
 result.forEach(function(obj) {
-    models.VerifyBloomFilters(obj);
+    models.VerifySimds(obj);
 })
 console.timeEnd("Hi Sam");
 

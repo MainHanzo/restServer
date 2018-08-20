@@ -19,10 +19,11 @@ namespace SimdBlockWrap {
 
     class SimdBlockWrap : public SimdBlockFilter<cuckoofilter::TwoIndependentMultiplyShift >, public node::ObjectWrap {
     public:
+
         static void Init(v8::Local<v8::Object> exports);
-        SimdBlockWrap(const int log_heap_space);
 
     private:
+        SimdBlockWrap(const int log_heap_space);
 
         virtual ~SimdBlockWrap();
         static void New(const v8::FunctionCallbackInfo<v8::Value>& args);
@@ -30,6 +31,7 @@ namespace SimdBlockWrap {
         static void Find(const v8::FunctionCallbackInfo<v8::Value>& args);
 
         static v8::Persistent<v8::Function> constructor;
+
     };
 }
 #endif

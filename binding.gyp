@@ -1,6 +1,6 @@
 {
   "targets": [{
-    "target_name": "simd-block",
+    "target_name": "simdBlock",
 
     "sources": [
       "addon.cpp",

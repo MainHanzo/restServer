@@ -1,5 +1,5 @@
 // const bloom = require("bloom-filter");
-var simd = require('./build/Release/simd-block.node');
+var simd = require('../../build/Release/simdBlock');
 var listSimd = [];
 var listTrunks  = [];
 
@@ -7,10 +7,8 @@ var listTrunks  = [];
 const  CreateListSimd = function(number) {
 
     for (var i = 0; i < number; i++) {
-        var simdBlock = bloom.create(
-            listTrunks[i].length, // nb of elements.
-            0.05       // false positive rate
-
+        var simdBlock = simd.simdBlock(
+            listTrunks[i].length/300, // listTrunks[i].length: nb of elements
         );
         listSimd.push(simdBlock);
 
@@ -22,11 +20,11 @@ const  CreateListSimd = function(number) {
 const VerifySimds = function(addr){
     for (let simdBlockIndex in listSimd) {
         let simdBlock = listSimd[simdBlockIndex];
-        if(!simdBlock.contains(addr))
+        if(!simdBlock.find(addr))
             {
                 //console.log("No." + simdBlockIndex +" doesn't have the address: " + addr);
             }else{
-                // console.log("No." + simdBlockIndex +" has the address: " + addr);
+                      // console.log("No." + simdBlockIndex +" has the address: " + addr);
             }
     }
 }
@@ -47,7 +45,8 @@ const MakeTrunks = function(num){
 const LoadTrunks = function(i,j,addr){
     console.log(i+" "+j+" "+addr);
     listTrunks[i][j] = addr;
-    listSimd[i].insert(addr);
+    listSimd[i].add(require('crypto').createHash('md5').update(addr).digest());
+    // listSimd[i].add(addr);
 }
 
 module.exports.CreateListSimd = CreateListSimd;

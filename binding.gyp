@@ -20,15 +20,15 @@
                                },
 
                            }],
+
             [ 'OS=="linux"', {
 
-                          'xcode_settings': {
-                            'OTHER_CPLUSPLUSFLAGS' : ['-std=c++11','-stdlib=libc++','-mavx2'],
-                            'OTHER_LDFLAGS': ['-stdlib=libc++','-mavx2'],
-                            },
 
-                        }],
-          ],
+               'OTHER_CPLUSPLUSFLAGS' : ['-std=c++11','-stdlib=libc++','-mavx2'],
+               'OTHER_LDFLAGS': ['-stdlib=libc++','-mavx2'],
+
+
+                                       }],
     "xcode_settings": {
       "OTHER_CFLAGS": ["-mavx2"],
       "OTHER_CPLUSPLUSFLAGS" : ["-std=c++11","-stdlib=libc++", "-v"],

@@ -89,7 +89,7 @@ SimdBlockFilter<HashFamily>::SimdBlockFilter(const int log_heap_space)
   const int malloc_failed =
       posix_memalign(reinterpret_cast<void**>(&directory_), 64, alloc_size);
   if (malloc_failed) throw ::std::bad_alloc();
-  memset(directory_, 0, alloc_size);
+  this->memset(directory_, 0, alloc_size);
 }
 
 template<typename HashFamily>

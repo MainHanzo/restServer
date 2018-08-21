@@ -29,7 +29,7 @@
 
 
                                        }],
-    
+
     "msvs_settings": {
       "VCCLCompilerTool": {
       "AdditionalOptions": ["/arch:AVX2"]

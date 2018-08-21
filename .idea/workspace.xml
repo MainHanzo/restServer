@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="67e47f3d-8207-4f3b-b422-37175079df21" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binding.gyp" beforeDir="false" afterPath="$PROJECT_DIR$/binding.gyp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -88,8 +87,8 @@
       <file leaf-file-name="binding.gyp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/binding.gyp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+            <state relative-caret-position="615">
+              <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -331,7 +330,7 @@
       <workItem from="1533538314578" duration="26726000" />
       <workItem from="1533785060452" duration="16817000" />
       <workItem from="1534236872602" duration="18644000" />
-      <workItem from="1534758533241" duration="4296000" />
+      <workItem from="1534758533241" duration="4531000" />
     </task>
     <task id="LOCAL-00001" summary="using object as hashtable">
       <created>1530682097040</created>
@@ -403,11 +402,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534762710782</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="simd block built!!!!!(try with binding gyp 1)">
+      <created>1534838570078</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1534838570078</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233322000" />
+    <option name="totallyTimeSpent" value="233557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1259" y="23" width="1283" height="1337" extended-state="0" />
@@ -503,7 +509,8 @@
     <MESSAGE value="original no c++ addon" />
     <MESSAGE value="simd block built!!" />
     <MESSAGE value="simd block built!!!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="simd block built!!!!!" />
+    <MESSAGE value="simd block built!!!!!(try with binding gyp 1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="simd block built!!!!!(try with binding gyp 1)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -735,8 +742,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/binding.gyp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        <state relative-caret-position="615">
+          <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
         </state>
       </provider>
     </entry>

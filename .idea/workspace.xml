@@ -1,8 +1,408 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67e47f3d-8207-4f3b-b422-37175079df21" name="Default" comment="">
+    <list default="true" id="67e47f3d-8207-4f3b-b422-37175079df21" name="Default" comment="simd block built!!!!!(try with binding gyp 3)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimdBlockFilter.h" beforeDir="false" afterPath="$PROJECT_DIR$/SimdBlockFilter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binding.gyp" beforeDir="false" afterPath="$PROJECT_DIR$/binding.gyp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/simdBlock.node" beforeDir="false" afterPath="$PROJECT_DIR$/build/Release/simdBlock.node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/config.gypi" beforeDir="false" afterPath="$PROJECT_DIR$/build/config.gypi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bindings/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bindings/bindings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bindings/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/appveyor.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/binding.gyp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/Release/.deps/Release/ffi_bindings.node.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/Release/.deps/Release/libffi.a.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/Release/.deps/Release/obj.target/ffi/deps/libffi/src/closures.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/Release/.deps/Release/obj.target/ffi/deps/libffi/src/java_raw_api.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/Release/.deps/Release/obj.target/ffi/deps/libffi/src/prep_cif.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/Release/.deps/Release/obj.target/ffi/deps/libffi/src/raw_api.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/Release/.deps/Release/obj.target/ffi/deps/libffi/src/types.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/Release/.deps/Release/obj.target/ffi/deps/libffi/src/x86/darwin.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/Release/.deps/Release/obj.target/ffi/deps/libffi/src/x86/darwin64.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/Release/.deps/Release/obj.target/ffi/deps/libffi/src/x86/ffi.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/Release/.deps/Release/obj.target/ffi/deps/libffi/src/x86/ffi64.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/Release/.deps/Release/obj.target/ffi_bindings/src/callback_info.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/Release/.deps/Release/obj.target/ffi_bindings/src/ffi.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/Release/.deps/Release/obj.target/ffi_bindings/src/threaded_callback_invokation.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/Release/ffi_bindings.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/Release/libffi.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/Release/obj.target/ffi/deps/libffi/src/closures.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/Release/obj.target/ffi/deps/libffi/src/java_raw_api.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/Release/obj.target/ffi/deps/libffi/src/prep_cif.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/Release/obj.target/ffi/deps/libffi/src/raw_api.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/Release/obj.target/ffi/deps/libffi/src/types.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/Release/obj.target/ffi/deps/libffi/src/x86/darwin.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/Release/obj.target/ffi/deps/libffi/src/x86/darwin64.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/Release/obj.target/ffi/deps/libffi/src/x86/ffi.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/Release/obj.target/ffi/deps/libffi/src/x86/ffi64.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/Release/obj.target/ffi_bindings/src/callback_info.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/Release/obj.target/ffi_bindings/src/ffi.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/Release/obj.target/ffi_bindings/src/threaded_callback_invokation.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/binding.Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/config.gypi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/deps/libffi/closure-test.target.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/deps/libffi/ffi.target.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/deps/libffi/libffi.Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/deps/libffi/test.target.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/ffi_bindings.target.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/build/gyp-mac-tool" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/ChangeLog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/ChangeLog.libffi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/ChangeLog.libgcj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/ChangeLog.v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/acinclude.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/aclocal.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/closure.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/compile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config.guess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config.sub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/freebsd/ia32/ffi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/freebsd/ia32/fficonfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/freebsd/ia32/ffitarget.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/freebsd/x64/ffi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/freebsd/x64/fficonfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/freebsd/x64/ffitarget.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/linux/arm/ffi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/linux/arm/fficonfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/linux/arm/ffitarget.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/linux/arm/flags.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/linux/ia32/ffi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/linux/ia32/fficonfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/linux/ia32/ffitarget.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/linux/ia32/flags.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/linux/x64/ffi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/linux/x64/fficonfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/linux/x64/ffitarget.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/linux/x64/flags.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/mac/ia32/ffi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/mac/ia32/fficonfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/mac/ia32/ffitarget.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/mac/ia32/flags.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/mac/x64/ffi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/mac/x64/fficonfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/mac/x64/ffitarget.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/mac/x64/flags.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/solaris/ia32/ffi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/solaris/ia32/fficonfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/solaris/ia32/ffitarget.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/solaris/ia32/flags.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/solaris/x64/ffi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/solaris/x64/fficonfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/solaris/x64/ffitarget.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/solaris/x64/flags.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/win/ia32/ffi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/win/ia32/fficonfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/win/ia32/ffitarget.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/win/ia32/flags.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/win/x64/ffi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/win/x64/fficonfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/config/win/x64/ffitarget.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/configure" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/configure.ac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/configure.host" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/depcomp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/doc/libffi.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/doc/libffi.texi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/doc/stamp-vti" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/doc/version.texi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/fficonfig.h.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/generate-ios-source-and-headers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/generate-osx-source-and-headers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/include/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/include/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/include/ffi.h.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/include/ffi_common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/install-sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/libffi.gyp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/libffi.pc.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/libffi.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/libtool-version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/ltmain.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/m4/asmcfi.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/m4/ax_cc_maxopt.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/m4/ax_cflags_warn_all.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/m4/ax_compiler_vendor.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/m4/ax_configure_args.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/m4/ax_enable_builddir.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/m4/ax_gcc_archflag.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/m4/ax_gcc_x86_cpuid.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/m4/libtool.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/m4/ltoptions.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/m4/ltsugar.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/m4/ltversion.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/m4/lt~obsolete.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/man/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/man/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/man/ffi.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/man/ffi_call.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/man/ffi_prep_cif.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/man/ffi_prep_cif_var.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/mdate-sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/missing" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/msvcc.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/alpha/ffi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/alpha/ffitarget.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/alpha/osf.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/arm/ffi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/arm/ffitarget.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/arm/gentramp.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/arm/sysv.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/arm/trampoline.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/avr32/ffi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/avr32/ffitarget.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/avr32/sysv.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/closures.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/cris/ffi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/cris/ffitarget.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/cris/sysv.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/debug.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/dlmalloc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/frv/eabi.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/frv/ffi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/frv/ffitarget.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/ia64/ffi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/ia64/ffitarget.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/ia64/ia64_flags.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/ia64/unix.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/java_raw_api.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/m32r/ffi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/m32r/ffitarget.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/m32r/sysv.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/m68k/ffi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/m68k/ffitarget.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/m68k/sysv.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/mips/ffi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/mips/ffitarget.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/mips/n32.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/mips/o32.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/moxie/eabi.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/moxie/ffi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/pa/ffi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/pa/ffitarget.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/pa/hpux32.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/pa/linux.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/powerpc/aix.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/powerpc/aix_closure.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/powerpc/asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/powerpc/darwin.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/powerpc/darwin_closure.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/powerpc/ffi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/powerpc/ffi_darwin.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/powerpc/ffitarget.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/powerpc/linux64.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/powerpc/linux64_closure.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/powerpc/ppc_closure.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/powerpc/sysv.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/prep_cif.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/raw_api.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/s390/ffi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/s390/ffitarget.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/s390/sysv.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/sh/ffi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/sh/ffitarget.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/sh/sysv.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/sh64/ffi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/sh64/ffitarget.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/sh64/sysv.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/sparc/ffi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/sparc/ffitarget.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/sparc/v8.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/sparc/v9.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/types.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/x86/darwin.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/x86/darwin64.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/x86/ffi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/x86/ffi64.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/x86/ffitarget.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/x86/freebsd.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/x86/sysv.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/x86/unix64.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/x86/win32.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/x86/win32.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/x86/win64.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/src/x86/win64.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/test.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/config/default.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/lib/libffi.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/lib/target-libpath.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/lib/wrapper.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/call.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/closure_fn0.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/closure_fn1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/closure_fn2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/closure_fn3.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/closure_fn4.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/closure_fn5.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/closure_fn6.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/closure_loc_fn0.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/closure_stdcall.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/closure_thiscall.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_12byte.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_16byte.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_18byte.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_19byte.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_1_1byte.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_20byte.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_20byte1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_24byte.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_2byte.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_3_1byte.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_3byte1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_3byte2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_4_1byte.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_4byte.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_5_1_byte.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_5byte.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_64byte.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_6_1_byte.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_6byte.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_7_1_byte.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_7byte.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_8byte.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_9byte1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_9byte2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_align_double.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_align_float.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_align_longdouble.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_align_longdouble_split.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_align_longdouble_split2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_align_pointer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_align_sint16.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_align_sint32.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_align_sint64.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_align_uint16.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_align_uint32.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_align_uint64.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_dbls_struct.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_double.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_double_va.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_float.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_longdouble.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_longdouble_va.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_multi_schar.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_multi_sshort.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_multi_sshortchar.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_multi_uchar.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_multi_ushort.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_multi_ushortchar.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_pointer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_pointer_stack.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_schar.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_sint.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_sshort.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_uchar.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_uint.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_ulonglong.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/cls_ushort.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/err_bad_abi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/err_bad_typedef.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/fastthis1_win32.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/fastthis2_win32.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/fastthis3_win32.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/ffitest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/float.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/float1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/float2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/float3.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/float4.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/float_va.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/huge_struct.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/many.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/many2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/many2_win32.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/many_win32.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/negint.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/nested_struct.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/nested_struct1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/nested_struct10.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/nested_struct2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/nested_struct3.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/nested_struct4.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/nested_struct5.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/nested_struct6.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/nested_struct7.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/nested_struct8.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/nested_struct9.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/problem1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/promotion.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/pyobjc-tc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/return_dbl.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/return_dbl1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/return_dbl2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/return_fl.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/return_fl1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/return_fl2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/return_fl3.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/return_ldl.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/return_ll.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/return_ll1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/return_sc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/return_sl.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/return_uc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/return_ul.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/stret_large.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/stret_large2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/stret_medium.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/stret_medium2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/strlen.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/strlen2_win32.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/strlen_win32.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/struct1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/struct1_win32.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/struct2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/struct2_win32.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/struct3.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/struct4.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/struct5.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/struct6.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/struct7.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/struct8.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/struct9.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.call/testclosure.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.special/ffitestcxx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.special/special.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.special/unwindtest.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/testsuite/libffi.special/unwindtest_ffi_call.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/deps/libffi/texinfo.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/example/abs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/example/factorial/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/example/factorial/factorial.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/example/factorial/factorial.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/example/sqlite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/lib/_foreign_function.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/lib/bindings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/lib/callback.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/lib/cif.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/lib/cif_var.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/lib/dynamic_library.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/lib/errno.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/lib/ffi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/lib/foreign_function.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/lib/foreign_function_var.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/lib/function.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/lib/library.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/lib/type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/src/callback_info.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/src/ffi.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/src/ffi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/src/threaded_callback_invokation.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/src/win32-dlfcn.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ffi/src/win32-dlfcn.h" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,7 +420,7 @@
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
-              <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+              <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -29,7 +429,7 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
-              <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -38,7 +438,7 @@
         <entry file="file://$PROJECT_DIR$/api/models/Model.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -55,8 +455,8 @@
       <file leaf-file-name="SimdBlockFilter.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SimdBlockFilter.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="54" column="49" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
+            <state relative-caret-position="418">
+              <caret line="79" column="50" selection-start-line="79" selection-start-column="50" selection-end-line="79" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -87,8 +487,8 @@
       <file leaf-file-name="binding.gyp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/binding.gyp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+            <state relative-caret-position="405">
+              <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -136,6 +536,7 @@
       <find>insert</find>
       <find>ExpirableHashTable</find>
       <find>hashtable</find>
+      <find>memset</find>
     </findStrings>
     <replaceStrings>
       <replace>simd</replace>
@@ -173,7 +574,6 @@
         <option value="$PROJECT_DIR$/simd_block_wrap.h" />
         <option value="$PROJECT_DIR$/simd_block_wrap.cpp" />
         <option value="$PROJECT_DIR$/SimdBlockFilter.cpp" />
-        <option value="$PROJECT_DIR$/SimdBlockFilter.h" />
         <option value="$PROJECT_DIR$/printutil.h" />
         <option value="$PROJECT_DIR$/hashutil.h" />
         <option value="$PROJECT_DIR$/SimdBlockWrap.h" />
@@ -184,6 +584,7 @@
         <option value="$PROJECT_DIR$/api/models/Model.js" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/SimdBlockFilter.h" />
         <option value="$PROJECT_DIR$/binding.gyp" />
       </list>
     </option>
@@ -330,7 +731,7 @@
       <workItem from="1533538314578" duration="26726000" />
       <workItem from="1533785060452" duration="16817000" />
       <workItem from="1534236872602" duration="18644000" />
-      <workItem from="1534758533241" duration="4531000" />
+      <workItem from="1534758533241" duration="6956000" />
     </task>
     <task id="LOCAL-00001" summary="using object as hashtable">
       <created>1530682097040</created>
@@ -409,21 +810,70 @@
       <option name="project" value="LOCAL" />
       <updated>1534838570078</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="simd block built!!!!!(try with binding gyp 2)">
+      <created>1534838767733</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1534838767733</updated>
+    </task>
+    <task id="LOCAL-00013" summary="simd block built!!!!!(try with binding gyp 2)">
+      <created>1534838787963</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1534838787963</updated>
+    </task>
+    <task id="LOCAL-00014" summary="simd block built!!!!!(try with binding gyp 2)">
+      <created>1534838930695</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1534838930695</updated>
+    </task>
+    <task id="LOCAL-00015" summary="simd block built!!!!!(try with binding gyp 3)">
+      <created>1534839099625</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1534839099625</updated>
+    </task>
+    <task id="LOCAL-00016" summary="simd block built!!!!!(try with binding gyp 3)">
+      <created>1534839289180</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1534839289180</updated>
+    </task>
+    <task id="LOCAL-00017" summary="simd block built!!!!! (add this in line 92)">
+      <created>1534840651347</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1534840651347</updated>
+    </task>
+    <task id="LOCAL-00018" summary="simd block built!!!!!(try with binding gyp 3)">
+      <created>1534841323246</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1534841323246</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233557000" />
+    <option name="totallyTimeSpent" value="235982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1259" y="23" width="1283" height="1337" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2751364" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2751364" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50073206" side_tool="true" weight="0.32708934" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49926794" visible="true" weight="0.3317498" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49926794" visible="true" weight="0.3317498" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.28424385" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -510,7 +960,10 @@
     <MESSAGE value="simd block built!!" />
     <MESSAGE value="simd block built!!!!!" />
     <MESSAGE value="simd block built!!!!!(try with binding gyp 1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="simd block built!!!!!(try with binding gyp 1)" />
+    <MESSAGE value="simd block built!!!!!(try with binding gyp 2)" />
+    <MESSAGE value="simd block built!!!!! (add this in line 92)" />
+    <MESSAGE value="simd block built!!!!!(try with binding gyp 3)" />
+    <option name="LAST_COMMIT_MESSAGE" value="simd block built!!!!!(try with binding gyp 3)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -705,13 +1158,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SimdBlockFilter.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="49" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addon.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -722,28 +1168,35 @@
     <entry file="file://$PROJECT_DIR$/api/models/Model.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
-          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SimdBlockFilter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="79" column="50" selection-start-line="79" selection-start-column="50" selection-end-line="79" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/binding.gyp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+        <state relative-caret-position="405">
+          <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
         </state>
       </provider>
     </entry>

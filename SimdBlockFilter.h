@@ -135,7 +135,7 @@ SimdBlockFilter<HashFamily>::add(const uint64_t key) noexcept {
         auto hash2 = hash>>log_num_buckets_;
 
         uint64_t hash_data[8] = {hash2,hash2,hash2,hash2,hash2,hash2,hash2,hash2};
-        uint32_t hash_data_32[8];
+//        uint32_t hash_data_32[8];
         for(int i = 0; i<8; i++){
             hash_data[i]=hash_data[i]*rehash[i];
             hash_data_32[i]=hash_data[i];

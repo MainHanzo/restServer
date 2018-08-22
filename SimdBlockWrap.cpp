@@ -80,7 +80,7 @@ void SimdBlockWrap::New(const FunctionCallbackInfo<Value>& args) {
 }
 
 void SimdBlockWrap::Add(const FunctionCallbackInfo<Value>& args){
-    Isolate* isolate = args.GetIsolate();
+
     unsigned int key = args[0]->IsUndefined() ? 0 : args[0]->Uint32Value();
 
     SimdBlockWrap* obj = ObjectWrap::Unwrap<SimdBlockWrap>(args.Holder());

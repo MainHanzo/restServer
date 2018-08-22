@@ -10,7 +10,10 @@
       "hashutil.cc",
       "hashutil.h",
     ],
+      'cflags': ['-fexceptions'],
+      'cflags_cc': ['-fexceptions'],
 
+                                  }
     'conditions': [
             [ 'OS=="mac"', {
 
@@ -25,7 +28,7 @@
                             'target_defaults': {
                             'OTHER_CPLUSPLUSFLAGS' : ['-std=c++11','-stdlib=libc++','-mavx2','-msse4.1'],
                             'OTHER_LDFLAGS': ['-stdlib=libc++','-mavx2','-msse4.1'],
-                            
+
                             'cflags': ['-fexceptions'],
                             'cflags_cc': ['-fexceptions'],
 

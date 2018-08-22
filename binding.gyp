@@ -12,8 +12,6 @@
     ],
       'cflags': ['-fexceptions'],
       'cflags_cc': ['-fexceptions'],
-
-                                  }
     'conditions': [
             [ 'OS=="mac"', {
 
@@ -29,8 +27,7 @@
                             'OTHER_CPLUSPLUSFLAGS' : ['-std=c++11','-stdlib=libc++','-mavx2','-msse4.1'],
                             'OTHER_LDFLAGS': ['-stdlib=libc++','-mavx2','-msse4.1'],
 
-                            'cflags': ['-fexceptions'],
-                            'cflags_cc': ['-fexceptions'],
+
 
                             }
                         }],

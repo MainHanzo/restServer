@@ -11,7 +11,8 @@
       "hashutil.h",
     ],
       'cflags': ['-fexceptions'],
-      'cflags_cc': ['-fexceptions'],
+      'cflags_cc': ['-fexceptions','-mavx2','-mavx'],
+
     'conditions': [
             [ 'OS=="mac"', {
 

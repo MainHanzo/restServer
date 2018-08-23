@@ -25,8 +25,7 @@
             [ 'OS=="linux"', {
 
                             'target_defaults': {
-                            'OTHER_CPLUSPLUSFLAGS' : ['-std=c++11','-stdlib=libc++','-mavx2'],
-                            'OTHER_LDFLAGS': ['-stdlib=libc++','-mavx2'],
+
 
                             'cflags_cc': [ '-mavx2','-mavx' ],
 

@@ -1,7 +1,7 @@
 var express = require('express'),
     app = express(),
 
-    port = process.env.PORT || 8868;
+    port = process.env.PORT || 8808;
 var nbFiles = 1;
 var models = require('./api/models/Model');
 var listTrunks = models.MakeTrunks(350*nbFiles);              //create a list of trunks with random size and every trunk has a corresponding BF

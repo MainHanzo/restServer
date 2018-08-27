@@ -12,6 +12,8 @@
       "farmhash-master/src/farmhash.h",
       "farmhash-master/src/farmhash.cc"
     ],
+    'cflags': ['-fexceptions'],
+    'cflags_cc': ['-fexceptions'],
     "include_dirs": [
         ".",
      ],

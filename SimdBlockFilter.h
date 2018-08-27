@@ -15,7 +15,7 @@
 #include <cstdint>
 #include <cstdlib>
 
-
+#include <stdexcept>
 #include <algorithm>
 #include <new>
 

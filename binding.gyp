@@ -9,7 +9,8 @@
       "SimdBlockWrap.h",
       "hashutil.cc",
       "hashutil.h",
-      "farmhash-master/src/farmhash.h"
+      "farmhash-master/src/farmhash.h",
+      "farmhash-master/src/farmhash.cc"
     ],
     "include_dirs": [
         ".",

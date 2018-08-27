@@ -1,8 +1,224 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67e47f3d-8207-4f3b-b422-37175079df21" name="Default" comment="simd block built!!!!!(targetdefault)">
+    <list default="true" id="67e47f3d-8207-4f3b-b422-37175079df21" name="Default" comment="simd block built!!!!!(variable length)">
+      <change afterPath="$PROJECT_DIR$/cityhash-master/COPYING" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/Makefile.am" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/Makefile.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/NEWS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/aclocal.m4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/config.guess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/config.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/config.h.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/config.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/config.status" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/config.sub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/configure" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/configure.ac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/depcomp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/install-sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/libtool" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/ltmain.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/m4/libtool.m4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/m4/ltoptions.m4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/m4/ltsugar.m4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/m4/ltversion.m4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/m4/lt~obsolete.m4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/missing" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/src/.deps/city-test.Po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/src/.deps/city.Plo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/src/.libs/city.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/src/.libs/cityhash_unittest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/src/.libs/libcityhash.0.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/src/.libs/libcityhash.0.dylib.dSYM/Contents/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/src/.libs/libcityhash.0.dylib.dSYM/Contents/Resources/DWARF/libcityhash.0.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/src/.libs/libcityhash.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/src/.libs/libcityhash.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/src/.libs/libcityhash.la" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/src/.libs/libcityhash.lai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/src/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/src/Makefile.am" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/src/Makefile.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/src/city-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/src/city-test.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/src/city.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/src/city.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/src/city.lo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/src/city.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/src/citycrc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/src/cityhash_unittest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/src/libcityhash.la" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cityhash-master/stamp-h1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compat/byteswap.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compat/endian.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compat/glibc_compat.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compat/glibc_sanity.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compat/glibcxx_sanity.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compat/sanity.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compat/strnlen.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/aes.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/aes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/aes_helper.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/blake.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/bmw.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/common.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/ctaes/COPYING" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/ctaes/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/ctaes/bench.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/ctaes/ctaes.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/ctaes/ctaes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/ctaes/test.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/cubehash.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/echo.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/groestl.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/hmac_sha256.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/hmac_sha256.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/hmac_sha512.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/hmac_sha512.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/jh.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/keccak.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/luffa.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/ripemd160.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/ripemd160.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/sha1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/sha1.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/sha256.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/sha256.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/sha512.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/sha512.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/shavite.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/simd.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/skein.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/sph_blake.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/sph_bmw.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/sph_cubehash.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/sph_echo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/sph_groestl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/sph_jh.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/sph_keccak.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/sph_luffa.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/sph_shavite.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/sph_simd.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/sph_skein.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto/sph_types.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/endian.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/COPYING" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/Makefile.am" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/Makefile.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/NEWS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/Understanding_Hash_Functions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/aclocal.m4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/compile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/config.guess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/config.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/config.h.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/config.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/config.status" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/config.sub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/configure" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/configure.ac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/depcomp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/INSTRUCTIONS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/PATCH" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/SELFTESTCityHash128WithSeed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/SELFTESTFingerprint128" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/SELFTESTHash32" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/SELFTESTHash32WithSeed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/SELFTESTHash64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/SELFTESTHash64WithSeed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/SELFTESTHash64WithSeeds" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/TESTBOILERPLATEHash32" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/TESTBOILERPLATEHash32WithSeed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/TESTBOILERPLATEHash64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/TESTBOILERPLATEHash64WithSeed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/TESTBOILERPLATEHash64WithSeeds" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/WRAPPERuint32tconstcharssizetlen" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/WRAPPERuint32tconstcharssizetlenuint32tseed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/WRAPPERuint32tconstcharssizetlenuint64tseed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/WRAPPERuint32tconstcharssizetlenuint64tseed0uint64tseed1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/WRAPPERuint64tconstcharssizetlen" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/WRAPPERuint64tconstcharssizetlenuint64tseed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/WRAPPERuint64tconstcharssizetlenuint64tseed0uint64tseed1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/basics.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/builder.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/cmake_m32" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/create-self-test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/do-in-parallel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/f.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/farmhash.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/farmhashcc.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/farmhashmk.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/farmhashna.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/farmhashns.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/farmhashnt.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/farmhashsa.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/farmhashsu.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/farmhashte.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/farmhashuo.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/farmhashxo.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/fix-copyright" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/platform.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/remove-from-to" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/dev/self-test-skeleton.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/install-sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/libtool" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/ltmain.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/m4/libtool.m4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/m4/ltoptions.m4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/m4/ltsugar.m4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/m4/ltversion.m4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/m4/lt~obsolete.m4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/missing" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/src/.deps/farm-test.Po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/src/.deps/farmhash.Plo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/src/.libs/farmhash.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/src/.libs/farmhash_unittest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/src/.libs/libfarmhash.0.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/src/.libs/libfarmhash.0.dylib.dSYM/Contents/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/src/.libs/libfarmhash.0.dylib.dSYM/Contents/Resources/DWARF/libfarmhash.0.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/src/.libs/libfarmhash.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/src/.libs/libfarmhash.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/src/.libs/libfarmhash.la" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/src/.libs/libfarmhash.lai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/src/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/src/Makefile.am" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/src/Makefile.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/src/farm-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/src/farm-test.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/src/farmhash.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/src/farmhash.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/src/farmhash.lo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/src/farmhash.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/src/farmhash_unittest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/src/libfarmhash.la" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/stamp-h1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/farmhash-master/test-driver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uint256.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uint256.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimdBlockFilter.h" beforeDir="false" afterPath="$PROJECT_DIR$/SimdBlockFilter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimdBlockWrap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SimdBlockWrap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/addon.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/models/Model.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/models/Model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binding.gyp" beforeDir="false" afterPath="$PROJECT_DIR$/binding.gyp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/.deps/Release/obj.target/simdBlock/SimdBlockWrap.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/.deps/Release/obj.target/simdBlock/addon.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/.deps/Release/obj.target/simdBlock/hashutil.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/.deps/Release/simdBlock.node.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj.target/simdBlock/SimdBlockWrap.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj.target/simdBlock/addon.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/obj.target/simdBlock/hashutil.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Release/simdBlock.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/binding.Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/binding.Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/config.gypi" beforeDir="false" afterPath="$PROJECT_DIR$/build/config.gypi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/simdBlock.target.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,80 +232,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Model.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/models/Model.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimdBlockWrap.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SimdBlockWrap.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="singletable.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/singletable.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimdBlockWrap.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SimdBlockWrap.h">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+              <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimdBlockWrap.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SimdBlockWrap.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="83" column="29" lean-forward="true" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Addresses.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Addresses.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret column="3802" selection-start-column="3802" selection-end-column="3802" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="debug.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/debug.h">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="SimdBlockFilter.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SimdBlockFilter.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+            <state relative-caret-position="170">
+              <caret line="109" column="30" lean-forward="true" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addon.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addon.cpp">
+      <file leaf-file-name="farmhash.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/farmhash-master/src/farmhash.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="122">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base.h">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="binding.gyp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/binding.gyp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="210">
+              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="convertcsv.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/convertcsv.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="cuckoofilter.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cuckoofilter.h">
+      <file leaf-file-name="hashutil.cc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hashutil.cc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="705">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
         </entry>
@@ -134,6 +362,9 @@
       <find>hashtable</find>
       <find>memset</find>
       <find>directory_</find>
+      <find>names</find>
+      <find>namespace</find>
+      <find>util</find>
     </findStrings>
     <replaceStrings>
       <replace>simd</replace>
@@ -174,15 +405,16 @@
         <option value="$PROJECT_DIR$/printutil.h" />
         <option value="$PROJECT_DIR$/hashutil.h" />
         <option value="$PROJECT_DIR$/SimdBlockWrap.h" />
-        <option value="$PROJECT_DIR$/addon.cpp" />
         <option value="$PROJECT_DIR$/addr/addresses6.json" />
-        <option value="$PROJECT_DIR$/SimdBlockWrap.cpp" />
         <option value="$PROJECT_DIR$/node_modules/bloom-filter/lib/filter.js" />
-        <option value="$PROJECT_DIR$/api/models/Model.js" />
         <option value="$PROJECT_DIR$/server.js" />
-        <option value="$PROJECT_DIR$/SimdBlockFilter.h" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/crypto/common.h" />
+        <option value="$PROJECT_DIR$/addon.cpp" />
+        <option value="$PROJECT_DIR$/api/models/Model.js" />
+        <option value="$PROJECT_DIR$/SimdBlockWrap.cpp" />
         <option value="$PROJECT_DIR$/binding.gyp" />
+        <option value="$PROJECT_DIR$/SimdBlockFilter.h" />
       </list>
     </option>
   </component>
@@ -204,7 +436,7 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1259" />
+    <option name="x" value="1280" />
     <option name="y" value="23" />
     <option name="width" value="1283" />
     <option name="height" value="1337" />
@@ -236,17 +468,17 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/addr" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/build/Release" />
-      <recent name="$PROJECT_DIR$/node_modules" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/addr" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/addr" />
       <recent name="C:\Users\DellUser\WebstormProjects" />
       <recent name="C:\Users\DellUser\WebstormProjects\restServer" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/addr" />
+      <recent name="$PROJECT_DIR$/build/Release" />
+      <recent name="$PROJECT_DIR$/node_modules" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -261,9 +493,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.Debug">
+  <component name="RunManager" selected="Node.js.server.js">
     <configuration name="Debug" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="server.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="mem://4/server.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$" />
     <list>
       <item itemvalue="Node.js.Debug" />
       <item itemvalue="Node.js.server.js" />
@@ -306,7 +538,7 @@
       <workItem from="1533538314578" duration="26726000" />
       <workItem from="1533785060452" duration="16817000" />
       <workItem from="1534236872602" duration="18644000" />
-      <workItem from="1534758533241" duration="13383000" />
+      <workItem from="1534758533241" duration="39693000" />
     </task>
     <task id="LOCAL-00001" summary="using object as hashtable">
       <created>1530682097040</created>
@@ -532,25 +764,67 @@
       <option name="project" value="LOCAL" />
       <updated>1534912415549</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="simd block built!!!!!(targetdefault)">
+      <created>1534912563251</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1534912563251</updated>
+    </task>
+    <task id="LOCAL-00034" summary="simd block built!!!!!(targetdefault)">
+      <created>1534912632447</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1534912632447</updated>
+    </task>
+    <task id="LOCAL-00035" summary="simd block built!!!!!(targetdefault)">
+      <created>1534916448107</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1534916448107</updated>
+    </task>
+    <task id="LOCAL-00036" summary="simd block built!!!!!(targetdefault)">
+      <created>1534916556826</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1534916556826</updated>
+    </task>
+    <task id="LOCAL-00037" summary="simd block built!!!!!(targetdefault)">
+      <created>1535013094241</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1535013094241</updated>
+    </task>
+    <task id="LOCAL-00038" summary="simd block built!!!!!(targetdefault)">
+      <created>1535014709146</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1535014709146</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="242409000" />
+    <option name="totallyTimeSpent" value="268719000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1259" y="23" width="1283" height="1337" extended-state="0" />
-    <editor active="true" />
+    <frame x="1277" y="24" width="1283" height="1337" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.27971473" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.27971473" />
       <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32983872" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50073206" side_tool="true" weight="0.32708934" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49926794" visible="true" weight="0.33790323" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.28424385" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49926794" weight="0.33790323" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="3" visible="true" weight="0.28387097" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.39825812" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39758065" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -559,7 +833,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32858273" />
-      <window_info anchor="bottom" id="Messages" order="11" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -641,58 +914,15 @@
     <MESSAGE value="simd block built!!!!!(configure)" />
     <MESSAGE value="simd block built!!!!!(scons)" />
     <MESSAGE value="simd block built!!!!!(targetdefault)" />
-    <option name="LAST_COMMIT_MESSAGE" value="simd block built!!!!!(targetdefault)" />
+    <MESSAGE value="simd block built!!!!!(variable length)" />
+    <option name="LAST_COMMIT_MESSAGE" value="simd block built!!!!!(variable length)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="20" />
+      <option name="time" value="27" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addr/addresses0.json" />
-    <entry file="file://$PROJECT_DIR$/node_modules/bloom-filter/lib/filter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="96" column="77" selection-start-line="96" selection-start-column="77" selection-end-line="96" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/models/Model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addr/addresses0.json" />
-    <entry file="file://$PROJECT_DIR$/node_modules/bloom-filter/lib/filter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="96" column="77" selection-start-line="96" selection-start-column="77" selection-end-line="96" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/models/Model.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -711,13 +941,6 @@
     <entry file="file://$PROJECT_DIR$/bloom-filter.hpp" />
     <entry file="file://$PROJECT_DIR$/addr/addresses1.json" />
     <entry file="file://$PROJECT_DIR$/addr/addresses0.json" />
-    <entry file="file://$PROJECT_DIR$/singletable.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simd-block-wrap.hpp" />
     <entry file="file://$PROJECT_DIR$/simd-block-wrap.cpp" />
     <entry file="file://$PROJECT_DIR$/build/Makefile">
@@ -729,9 +952,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build/Release/.deps/Release/obj.target/simd-block-cpp/addon.o.d" />
     <entry file="file://$PROJECT_DIR$/simd-block.h" />
-    <entry file="file://$PROJECT_DIR$/bitsutil.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/SimdBlockFilter.cpp" />
     <entry file="file://$PROJECT_DIR$/printutil.cc">
       <provider selected="true" editor-type-id="text-editor" />
@@ -785,45 +1005,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hashutil.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="42" column="15" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/packedtable.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SimdBlockWrap.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="61" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/models/Model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addon.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/convertcsv.json">
@@ -832,9 +1014,51 @@
     <entry file="file://$PROJECT_DIR$/cuckoofilter.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cityhash-master/src/city.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-964" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uint256.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crypto/jh.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compat/endian.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crypto/common.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uint256.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitsutil.h">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Addresses.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -843,34 +1067,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/debug.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SimdBlockFilter.h">
+    <entry file="file://$PROJECT_DIR$/base.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        <state relative-caret-position="150">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addon.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/endian.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hashutil.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/farmhash-master/src/farmhash.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SimdBlockWrap.h">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/binding.gyp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="210">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singletable.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SimdBlockFilter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="109" column="30" lean-forward="true" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SimdBlockWrap.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="83" column="29" lean-forward="true" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
+        <state relative-caret-position="615">
+          <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/models/Model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>

@@ -20,7 +20,7 @@ namespace SimdBlockWrap {
 
     }
     
-    NODE_MODULE(simdBlock, InitAll)
+    NODE_MODULE(SimdBlockFilter, InitAll)
 
     
 }

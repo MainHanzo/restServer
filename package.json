@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@polkajs/bloom-filter": "^1.0.1",
+    "base58": "^1.0.1",
     "bloom-filter": "^0.2.0",
     "bloom-filter-cpp": "^1.2.0",
     "bloomfilter": "0.0.18",

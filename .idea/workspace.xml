@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="67e47f3d-8207-4f3b-b422-37175079df21" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimdBlockFilter.h" beforeDir="false" afterPath="$PROJECT_DIR$/SimdBlockFilter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binding.gyp" beforeDir="false" afterPath="$PROJECT_DIR$/binding.gyp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crypto/common.h" beforeDir="false" afterPath="$PROJECT_DIR$/crypto/common.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+            <state relative-caret-position="405">
+              <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -46,43 +45,47 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Documents/testBloom/restServer/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Documents/testBloom/restServer/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SimdBlockFilter.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SimdBlockFilter.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="315">
+              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="farmhash.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/farmhash-master/src/farmhash.h">
+      <file leaf-file-name="endian.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/endian.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="107" column="31" selection-start-line="107" selection-start-column="31" selection-end-line="107" selection-end-column="31" />
+            <state relative-caret-position="329">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addon.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addon.cpp">
+      <file leaf-file-name="common.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/crypto/common.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            <state relative-caret-position="165">
+              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="printutil.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/printutil.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hashutil.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hashutil.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -183,12 +186,12 @@
         <option value="$PROJECT_DIR$/node_modules/bloom-filter/lib/filter.js" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/crypto/common.h" />
         <option value="$PROJECT_DIR$/addon.cpp" />
         <option value="$PROJECT_DIR$/api/models/Model.js" />
         <option value="$PROJECT_DIR$/SimdBlockWrap.cpp" />
-        <option value="$PROJECT_DIR$/SimdBlockFilter.h" />
         <option value="$PROJECT_DIR$/binding.gyp" />
+        <option value="$PROJECT_DIR$/SimdBlockFilter.h" />
+        <option value="$PROJECT_DIR$/crypto/common.h" />
       </list>
     </option>
   </component>
@@ -312,7 +315,7 @@
       <workItem from="1533538314578" duration="26726000" />
       <workItem from="1533785060452" duration="16817000" />
       <workItem from="1534236872602" duration="18644000" />
-      <workItem from="1534758533241" duration="42343000" />
+      <workItem from="1534758533241" duration="43335000" />
     </task>
     <task id="LOCAL-00001" summary="using object as hashtable">
       <created>1530682097040</created>
@@ -587,22 +590,36 @@
       <option name="project" value="LOCAL" />
       <updated>1535358395564</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="simd block 256 version">
+      <created>1535361518126</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1535361518126</updated>
+    </task>
+    <task id="LOCAL-00041" summary="simd block 256 version">
+      <created>1535362160103</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1535362160103</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="271369000" />
+    <option name="totallyTimeSpent" value="272361000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1277" y="28" width="1283" height="1337" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.27971473" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.27971473" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32983872" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50073206" side_tool="true" weight="0.32708934" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49926794" visible="true" weight="0.33790323" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49926794" visible="true" weight="0.33790323" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.28387097" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -698,7 +715,8 @@
     <MESSAGE value="simd block built!!!!!(targetdefault)" />
     <MESSAGE value="simd block built!!!!!(variable length)" />
     <MESSAGE value="simd block debugging" />
-    <option name="LAST_COMMIT_MESSAGE" value="simd block debugging" />
+    <MESSAGE value="simd block 256 version" />
+    <option name="LAST_COMMIT_MESSAGE" value="simd block 256 version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -726,13 +744,6 @@
     <entry file="file://$PROJECT_DIR$/printutil.cc">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hashutil.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="49" column="33" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addr/addresses5.json" />
     <entry file="file://$PROJECT_DIR$/addr/addresses6.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -752,13 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1575">
           <caret line="105" selection-start-line="105" selection-end-line="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/printutil.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -813,13 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crypto/common.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uint256.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-14">
@@ -841,13 +838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/endian.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -903,13 +893,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SimdBlockFilter.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Documents/testBloom/restServer/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -942,8 +925,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        <state relative-caret-position="405">
+          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hashutil.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/printutil.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SimdBlockFilter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/endian.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crypto/common.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
